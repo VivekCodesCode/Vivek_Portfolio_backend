@@ -1,0 +1,4 @@
+use-->
+
+app.use(express.json()); // To parse JSON bodies
+//Yaad rahe only used to send data in JSON format
