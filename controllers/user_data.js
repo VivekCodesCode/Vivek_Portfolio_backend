@@ -5,6 +5,8 @@ async function get_data(req,res){
 async function insert_data(req,res){
    console.log(req.body);
   const user=new User(req.body);
+ await user.save();
+  res.send("Done")
 }
 module.exports={
     get_data,insert_data

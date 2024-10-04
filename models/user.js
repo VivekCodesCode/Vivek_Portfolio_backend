@@ -8,7 +8,7 @@ const userSchema = new mongoose.Schema({
     lastname:{
         type:String,
         required:true,
-        unique: true
+       
     },
     company:{
         type:String,
@@ -17,7 +17,7 @@ const userSchema = new mongoose.Schema({
     message:{
         type:String,
         required:true,
-        unique: true
+       
     }
 });
 
