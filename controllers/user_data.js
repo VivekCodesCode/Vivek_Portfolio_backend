@@ -4,7 +4,7 @@ async function get_data(req,res){
 }
 async function insert_data(req,res){
    console.log(req.body);
-   res.send("succcess");
+  const user=new User(req.body);
 }
 module.exports={
     get_data,insert_data
